@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add info</title>
+</head>
+<body>
+<h1 align="center">Welcome to Shopping card.</h1>
+<div align="center">
+    <form method="post">
+    {{form.as_p}}
+        {% csrf_token %}
+        <input type="submit" class="btn btn-primary btn-large " value="Submit"> <br>
+        <br>
+        <br>
+
+</form>
+
+    <a class="btn btn-primary btn-large "  href="/desply " role="button">Display Item</a>
+</div>
+
+</body>
+</html>
